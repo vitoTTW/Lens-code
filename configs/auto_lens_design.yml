@@ -7,13 +7,13 @@ seed: 1
 # Modify the following parameters if you want to design you own lens
 # ==================
 # Design spec
-HFOV: 0.7 # half diagonal FoV in radian
+HFOV: 10 # half diagonal FoV in radian
 FNUM: 2.0 # F-number
-DIAG: 7.66  # sensor diagonal length in mm
-element: 6  # lens element number
+DIAG: 5.8  # sensor diagonal length in mm
+element: 3  # lens element number
 # ==================
 
-curriculum_steps: 5 # number of intermediate steps
+curriculum_steps: 2 # number of intermediate steps
 FNUM_START: 2.8
 DIAG_START: 4
 
